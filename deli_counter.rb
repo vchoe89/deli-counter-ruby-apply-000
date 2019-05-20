@@ -20,9 +20,11 @@ def take_a_number(array, name)
   return name, position 
 end
 
+$ticket = 0
 def take_a_number(array)
-  array.push(array)
-  puts "Welcome, you are ticket number #{array}."
+  array.push($ticket)
+  $ticket == $ticket + 1
+  puts "Welcome, you are ticket number #{$ticket}."
 end
 
 def now_serving(array)
