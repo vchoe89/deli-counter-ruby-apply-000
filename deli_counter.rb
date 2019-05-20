@@ -20,6 +20,10 @@ def take_a_number(array, name)
   return name, position 
 end
 
+def take_a_number(array)
+  array.push(array)
+  puts "Welcome, you are ticket number #{array}"
+
 def now_serving(array)
   if array.size == 0
     puts "There is nobody waiting to be served!"
