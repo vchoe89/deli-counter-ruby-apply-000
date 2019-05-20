@@ -22,7 +22,8 @@ end
 
 def take_a_number(array)
   array.push(array)
-  puts "Welcome, you are ticket number #{array}"
+  puts "Welcome, you are ticket number #{array}."
+end
 
 def now_serving(array)
   if array.size == 0
